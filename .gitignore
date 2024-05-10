@@ -1,0 +1,9 @@
+Not sure what a .gitignore is?
+# See: https://git-scm.com/docs/gitignore
+
+# .DS_Store is a macOS-only metadata file about directories. Convention is to not commit them.
+# See: https://en.wikipedia.org/wiki/.DS_Store
+.DS_Store
+
+# .ipynb_checkpoints are directories created when a .ipynb file is created. They are local files, so they shouldn't be committed.
+.ipynb_checkpoints
