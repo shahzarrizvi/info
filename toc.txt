@@ -1,0 +1,5 @@
+betas/ contains experiments of dependent data which looks uncorrelated.
+uniorms/ contains experiments of varying amounts of dependence.
+
+n/ contains experiments where the sample size n is varied.
+r/ contains experiments where the correlation r is varied.
