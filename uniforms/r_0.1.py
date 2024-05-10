@@ -142,8 +142,8 @@ for i in range(reps):
     # Resample from D_star.
     idx = np.random.choice(n, size = n)
     D_boot = D_star[idx]
-    X_boot = D_star[:, 0].reshape(-1, 1)
-    Y_boot = D_star[:, 1].reshape(-1, 1)
+    X_boot = D_boot[:, 0].reshape(-1, 1)
+    Y_boot = D_boot[:, 1].reshape(-1, 1)
 
     # Compute the information coefficient.
     ss[i] = s(X_boot, Y_boot, D_boot, flow_0)
