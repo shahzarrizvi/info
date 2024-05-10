@@ -91,7 +91,7 @@ def s(X, Y, D, flow):
 ## Assign the parameters for this experiment.
 np.random.seed(666)
 n = 500
-r = 0.1
+r = 0.01
 dir = 'n/{}/'.format(n)
 
 # Generate the true data.
